@@ -11,6 +11,7 @@ gem 'coffee-rails', '~> 4.1.0'
 gem "jquery-rails"
 gem 'turbolinks', github: 'rails/turbolinks'
 gem 'unicorn'
+gem 'sidekiq'
 
 group :development, :test do
   gem 'spring'
